@@ -41,3 +41,6 @@ app-example
 # generated native folders
 /ios
 /android
+
+# IDE metadata
+.idea/material_theme_project_new.xml
