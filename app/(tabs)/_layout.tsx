@@ -1,6 +1,6 @@
 //👉 “This sets up the bottom tabs of the app and controls which screens appear in the tab bar.”
-import { tabs } from "@/consatants/data";
-import { colors, components } from "@/consatants/theme";
+import { tabs } from "@/constants/data";
+import { colors, components } from "@/constants/theme";
 import clsx from "clsx";
 import { Tabs } from "expo-router";
 import { Image, View } from "react-native";
