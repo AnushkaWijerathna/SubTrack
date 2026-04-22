@@ -42,10 +42,9 @@ export default function App() {
           pathname: "/subscriptions/[id]",
           params: { id: "claude" },
         }}
+        className="mt-4 rounded bg-secondary px-4 py-2"
       >
-        <Text className="mt-4 rounded bg-secondary px-4 py-2 text-white">
-          Go to claude
-        </Text>
+        <Text className="text-white">Go to claude</Text>
       </Link>
     </SafeAreaView>
   );
